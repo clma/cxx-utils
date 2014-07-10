@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{5af88d40-9799-4cbf-8876-ab12e3fadb50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils">
+      <UniqueIdentifier>{064b4db5-e920-4c01-afa4-2bbcdb1a5417}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\log">
+      <UniqueIdentifier>{f1a916bb-74c0-46ae-97c5-e3bb1423811c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\string">
+      <UniqueIdentifier>{693823d3-01d9-4830-b816-ba9c4372d1d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\tools">
+      <UniqueIdentifier>{5d4b1e78-6ed8-4922-8f2b-fa00d254893f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\tools\timecount">
+      <UniqueIdentifier>{716a0d3c-4136-4515-b5ad-f324653c361a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\config">
+      <UniqueIdentifier>{242fd82e-dc9b-47e5-8b7d-d25743372d16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\config\ini">
+      <UniqueIdentifier>{97b0faad-4dd0-4b19-9dfe-c23e4c2ddb21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\xml">
+      <UniqueIdentifier>{0eedbe45-2097-425f-8c18-12a8d0638ef9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\xml\markup">
+      <UniqueIdentifier>{95c42f39-68b8-4769-82c0-9e104a2f8ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\api">
+      <UniqueIdentifier>{e965feb8-3dd3-4dd4-8efc-25c12c144705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\system">
+      <UniqueIdentifier>{9266dfa3-0586-4bde-bcbd-ee12c2b3a176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="utils\file">
+      <UniqueIdentifier>{c3f6dc58-d5dd-40ed-ad8a-b017ed9a8096}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+    <None Include="cxxutils.def">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="res\cxxutils.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cxxutils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\string\StringConverter.cpp">
+      <Filter>utils\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\log\Log.cpp">
+      <Filter>utils\log</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\tools\timecount\TimeCount.cpp">
+      <Filter>utils\tools\timecount</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\config\ini\IniTool.cpp">
+      <Filter>utils\config\ini</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\xml\markup\Markup.cpp">
+      <Filter>utils\xml\markup</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\system\AppUtil.cpp">
+      <Filter>utils\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\system\SysUtil.cpp">
+      <Filter>utils\system</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\utils\system\GuidUtil.cpp">
+      <Filter>utils\system</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\string\CharSetTransferMacro.h">
+      <Filter>utils\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\string\StringConverter.h">
+      <Filter>utils\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\log\Log.h">
+      <Filter>utils\log</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\tools\timecount\TimeCount.h">
+      <Filter>utils\tools\timecount</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\include\cxxutils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\config\ini\IniTool.h">
+      <Filter>utils\config\ini</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\xml\markup\Markup.h">
+      <Filter>utils\xml\markup</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\api\macro.h">
+      <Filter>utils\api</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\system\AppUtil.h">
+      <Filter>utils\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\system\SysUtil.h">
+      <Filter>utils\system</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\utils\system\GuidUtil.h">
+      <Filter>utils\system</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cxxutils.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
